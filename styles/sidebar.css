@@ -1,0 +1,90 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 66px;
+  background-color: white;
+  width: 216px;
+  margin-left: 14px;
+}
+
+.sidebar-link {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 200px;
+  transition: background-color 0.25s;
+  cursor: pointer;
+}
+
+.sidebar-link1 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+  border-radius: 10px;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.sidebar-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+  padding-left: 8px;
+}
+
+.sidebar p {
+  display: flex;
+  padding-left: 24px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.bottom-border {
+  border-bottom: gray 1px solid;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+.you {
+  font-family: Roboto, Arial;
+  font-family: 28px;
+  font-weight: 500;
+  padding-left: 8px;
+}
+
+.grater-than {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  padding-left: 8px;
+}
+
+.show-more-icon {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+  padding-left: 15px;
+}
+
+.show-more {
+  margin-left: 4px;
+}
+
+.bottom-border2 {
+  border-bottom: gray 1px solid;
+  margin-top: 14px;
+}
+
+
+
